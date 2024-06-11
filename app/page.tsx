@@ -1,7 +1,9 @@
-import Image from "next/image";
+import { Button } from "@/components/ui/button";
 
 export default function Home() {
   return (
-   <hi className = 'text-2xl'>Dashboard</hi>
+  <>
+   <h1 className = 'text-2xl'>Dashboard</h1>
+  </>
   );
 }
