@@ -11,7 +11,6 @@ const posts: Post[] = [
     date: "2024-05-01",
     comments: [
       { id: "c1", text: "A spellbinding journey into the unknown.", username: "The Times" },
-      { id: "c2", text: "Bronte's prose captures the essence of the wild.", username: "NY Post" },
     ],
   },
   {
@@ -22,7 +21,6 @@ const posts: Post[] = [
     date: "2024-04-15",
     comments: [
       { id: "c3", text: "A stellar achievement in science fiction.", username: "The Guardian" },
-      { id: "c4", text: "Clarke's vision is as boundless as the universe itself.", username: "Scientific American" },
     ],
   },
   {
@@ -33,7 +31,6 @@ const posts: Post[] = [
     date: "2024-03-22",
     comments: [
       { id: "c5", text: "An electrifying blend of history and mystery.", username: "BBC" },
-      { id: "c6", text: "Dan Brown keeps you on the edge of your seat.", username: "CNN" },
     ],
   },
   {
@@ -66,8 +63,7 @@ const posts: Post[] = [
     date: "2024-03-11",
     comments: [
       { id: "c11", text: "A maritime epic of legendary proportions.", username: "Maritime Weekly" },
-      { id: "c12", text: "Melville's narrative depth matches the ocean itself.", username: "The Atlantic" },
-    ],
+  ],
   },
   {
     id: "7",
@@ -77,7 +73,6 @@ const posts: Post[] = [
     date: "2024-05-20",
     comments: [
       { id: "c13", text: "A philosophical and thrilling exploration.", username: "Literary Review" },
-      { id: "c14", text: "Eco's mastery of historical detail is unparalleled.", username: "The New Yorker" },
     ],
   },
   {
@@ -88,8 +83,7 @@ const posts: Post[] = [
     date: "2024-06-05",
     comments: [
       { id: "c15", text: "A symphony of words and imagination.", username: "The Boston Globe" },
-      { id: "c16", text: "Pullman's narrative sings with creativity.", username: "LA Times" },
-    ],
+   ],
   },
   {
     id: "9",
@@ -99,7 +93,6 @@ const posts: Post[] = [
     date: "2024-02-14",
     comments: [
       { id: "c17", text: "A poignant and uplifting journey.", username: "The Washington Post" },
-      { id: "c18", text: "Haig's story resonates deeply.", username: "USA Today" },
     ],
   },
   {
@@ -110,8 +103,7 @@ const posts: Post[] = [
     date: "2024-01-01",
     comments: [
       { id: "c19", text: "A dark and enchanting tale.", username: "Tor.com" },
-      { id: "c20", text: "Bardugo's characters are as compelling as the plot.", username: "Booklist" },
-    ],
+   ],
   },
 ];
 
