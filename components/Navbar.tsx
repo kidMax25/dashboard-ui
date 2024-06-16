@@ -11,6 +11,8 @@ import {
   DropdownMenuTrigger,
 } from "@/components/ui/dropdown-menu";
 
+import ThemeToggler from "./ThemeToggler";
+
 const Navbar = () => {
   return (
     <div className="bg-primary dark:bg-slate-700 text-white py-2 px-5 flex justify-between">
@@ -18,7 +20,9 @@ const Navbar = () => {
         <Image src={logo} alt="Korina Claudia" width={40} />
       </Link>
 
-      <DropdownMenu>
+        <div className="flex items-center">
+          <ThemeToggler/>
+          <DropdownMenu>
         <DropdownMenuTrigger className="focus:outline-none">
           <Avatar>
             <AvatarImage src="https://github.com/shadcn.png" alt="@shadcn" />
@@ -37,6 +41,8 @@ const Navbar = () => {
           </DropdownMenuItem>
         </DropdownMenuContent>
       </DropdownMenu>
+        </div>
+      
     </div>
   );
 };
