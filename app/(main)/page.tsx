@@ -1,6 +1,5 @@
 import DashboardCard from "@/components/dashboard/DashboardCard";
 import PostsTable from "@/components/posts/PostsTable";
-import { Button } from "@/components/ui/button";
 import { Folder, MessageCircle, Newspaper, User } from "lucide-react";
 import AnalyticsChart from "@/components/dashboard/AnalyticsChart";
 
