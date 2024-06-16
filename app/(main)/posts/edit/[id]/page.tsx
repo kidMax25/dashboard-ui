@@ -95,6 +95,34 @@ const PostEditPage = ({ params }: PostEditPageProps) => {
               </FormItem>
             )}
           />
+
+<FormField
+            control={form.control}
+            name="author"
+            render={({ field }) => (
+              <FormItem>
+                <FormLabel className="uppertext text-xs font-bold text-zinc-500 dark: text-white">Author</FormLabel>
+                <FormControl>
+                  <Input className='bg-slate-100 dark:bg-slate-500 border-0 focus-visible:ring-0 text-black dark:text-white focus-visible:ring-offset-0' placeholder="Enter Author" {...field} />
+                </FormControl>
+              </FormItem>
+            )}
+          />
+
+<FormField
+            control={form.control}
+            name="date"
+            render={({ field }) => (
+              <FormItem>
+                <FormLabel className="uppertext text-xs font-bold text-zinc-500 dark: text-white">Date</FormLabel>
+                <FormControl>
+                  <Input className='bg-slate-100 dark:bg-slate-500 border-0 focus-visible:ring-0 text-black dark:text-white focus-visible:ring-offset-0' placeholder="Enter Date" {...field} />
+                </FormControl>
+              </FormItem>
+            )}
+          />
+
+          <Button className="w-full dark:bg-slate-800 dark:text-white">Update Post</Button>
         </form>
       </Form>
     </div>
